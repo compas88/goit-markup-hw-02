@@ -84,7 +84,6 @@ li {
 .footer-list-address {
     color: var(--primary-white-color);
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -135,7 +134,6 @@ li {
 }
 
 .benefits-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -167,7 +165,6 @@ li {
 
 .team-text {
     color: var(--primary-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -183,6 +180,7 @@ li {
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
 
 .button-projects:hover,
@@ -201,7 +199,6 @@ li {
 
 .projects-text {
     color: var(--primary-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
