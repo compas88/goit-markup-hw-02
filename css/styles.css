@@ -12,24 +12,29 @@
 /* General */
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: roboto, sans-serif;
     color: var(--primary-title-color);
+    background-color: var(--primary-bg-color);
 }
 
 a {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
+
 
 /* Header */
 
 .header {
-    background-color: var(--primary-white-color:);
+    background-color: var(--primary-white-color);
 }
 
 .logo {
     color: var(--primary-accent-color);
-    font-family: Raleway, sans-serif;
+    font-family: raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -40,12 +45,9 @@ a {
     color: #000000;
 }
 
-.header-list {
-    list-style: none;
-}
-
 .header-list-nav,
-.header-list-address {
+.header-list-email,
+.header-list-tel {
     color: var(--primary-title-color);
     font-weight: 500;
     font-size: 14px;
@@ -55,12 +57,12 @@ a {
 
 .header-list-nav:hover,
 .header-list-nav:focus,
-.header-list-address:hover,
-.header-list-address:focus {
+.accent,
+.header-list-email {
     color: var(--primary-accent-color);
 }
 
-.header-list-address {
+.header-list-tel {
     color: var(--primary-text-color);
 }
 
@@ -93,6 +95,8 @@ a {
 }
 
 
+/* INDEX */
+
 /* Hero */
 .hero {
     color: var(--primary-white-color);
@@ -106,6 +110,7 @@ a {
 }
 
 .button-hero {
+    font-family: roboto, sans-serif;
     color: var(--primary-white-color);
     background-color: var(--primary-accent-color);
     font-weight: 700;
@@ -113,4 +118,91 @@ a {
     line-height: 1.9;
     letter-spacing: 0.06em;
     cursor: pointer;
+}
+
+
+/* Benefits */
+
+.benefits {
+    background-color: var(--primary-bg-color);
+}
+
+.benefits-subtitle {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+}
+
+.benefits-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+
+/* Services */
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+
+/* Team */
+
+.team {
+    background-color: var(--secondary-bg-color);
+}
+
+.team-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.team-text {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+/* PORTFOLIO */
+
+.button-projects {
+    font-family: roboto, sans-serif;
+    color: var(--primary-title-color);
+    background-color: var(--secondary-bg-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+}
+
+.button-projects:hover,
+.button-projects:focus {
+    color: var(--primary-white-color);
+    background-color: var(--primary-accent-color)
+}
+
+.projects-subtitle {
+    color: var(--primary-title-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.projects-text {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
